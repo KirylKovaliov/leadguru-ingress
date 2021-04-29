@@ -23,6 +23,7 @@ dotnet run --project LeadGuru.Ingress
 
 #### Docker
 
-```Bash
-docker build -t 
+```cmd
+docker build . -f LeadGuru.Ingress/Dockerfile  -t leadguru-ingress
+docker run -v <path to the credentials file>:/creds/credentials.json leadguru-ingress
 ```
