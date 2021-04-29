@@ -1,4 +1,4 @@
-# Step by Step instructions how to connect to the production
+# Step by Step instructions how to connect to the production aggregation topic
 
 - Make sure dotnet 5 is installed
 - Download **credentials.json** from the shared link
